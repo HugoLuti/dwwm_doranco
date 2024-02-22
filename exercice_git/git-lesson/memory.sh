@@ -69,15 +69,15 @@ git chekout <nom_de_la_branche>
 
 # -------------------- Les branches -------------------- #
 
-# Afficher la listes des branches
+# Afficher la listes des branches.
 
 git branch
 
-# Créé une nouvelle branche
+# Créé une nouvelle branche.
 
 git branch <nom_de_la_branche>
 
-# Changer de branche
+# Changer de branche.
 
 git switch <nom_de_la_branche>
 
@@ -85,15 +85,28 @@ git switch <nom_de_la_branche>
 
 git merge <nom_de_la_branche>
 
-# Renommer la branche actuelle avec un nouveau nom
+# Renommer la branche actuelle avec un nouveau nom.
 
 git branch -m nom_branche
 
-# Renommer une branche
+# Renommer une branche.
 
 git branch -m <ancien_nom> <nouveau_nom>
 
 # Supprimer une branche spécifique
 
-git branch -d nom_branche # pour supprimer une branche spécifique je ne dois pas me situer sur cette branche 
+git branch -d nom_branche # pour supprimer une branche spécifique je ne dois pas me situer sur cette branche. 
 
+# -------------------- Restores -------------------- #
+
+# Restaurer le fichier à l'état du dernier commit.
+
+git restore nom_fichier
+
+# Supprime le fichier spécifier de la staging area, le retirant de la préparation pour le commit.
+
+git restore --staged nom_fichier
+
+# Crée un nouveau commit 
+
+gi revert id_commit
