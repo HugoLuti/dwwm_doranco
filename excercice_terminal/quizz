@@ -1,0 +1,84 @@
+SCORE=0
+
+echo "Bievenue dans le quizz"
+echo "Premiere question:"
+echo "Qui est le prof ?"
+echo "1- Toto"
+echo "2- Imed"
+echo "3- Said"
+echo "4- Samy"
+echo "Veuillez taper votre réponse"
+read
+if [ $REPLY -eq 2 ]
+then 
+    echo "Bonne réponse"
+    ((SCORE++))
+else
+    echo "Mauvaise réponse"
+fi
+
+echo "Deuxieme question:"
+echo "Quel est le nom de notre formation ?"
+echo "1- AQ DWWM"
+echo "2- AQ DWMW"
+echo "3- QA WMWD"
+echo "4- AQ WDWM"
+echo "Veuillez taper votre réponse"
+read
+if [ $REPLY -eq 1 ]
+then 
+    echo "Bonne réponse"
+    ((SCORE++))
+else
+    echo "Mauvaise réponse"
+fi
+
+echo "Troisième question:"
+echo "Quel est le nom de l'école ?"
+echo "1- Drodanco"
+echo "2- Fromagio"
+echo "3- Palacio"
+echo "4* Doranco"
+echo "Veuillez taper votre réponse"
+read
+if [ $REPLY -eq 4 ]
+then
+    echo "Bonne réponse"
+    ((SCORE++))
+else
+    echo "Mauvaise réponse"
+fi
+
+echo "Quatrième question:"
+echo "Quel editeur de texte nous avons utilisé le plus depuis le debut de l'AQ ?"
+echo "1- SV Code"
+echo "2- GS Code"
+echo "3- VS Code"
+echo "4- SV Odec"
+echo "Veuillez taper votre réponse"
+read 
+if [ $REPLY -eq 3 ]
+then
+    echo "Bonne réponse"
+    ((SCORE++))
+else
+    echo "Mauvaise réponse"
+fi
+
+echo "Derniere question:"
+echo "Quel langage est utilisé comme squelette pour une page web ?"
+echo "1- HLTV"
+echo "2- HTLM"
+echo "3- HLM"
+echo "4- HTML"
+echo "Veuillez taper votre réponse"
+read
+if [ $REPLY -eq 4 ]
+then
+    echo "Bonne réponse"
+    ((SCORE++))
+else
+    echo "Mauvaise réponse"
+fi
+
+echo "Le quizz est terminer vous avez eut $SCORE bonnes réponses"

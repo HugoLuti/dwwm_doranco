@@ -1,0 +1,8 @@
+# Ici j'initialise ma variable 'i' en lui donnant la valeur 0
+
+i=0
+while [ i -le 5 ]
+do
+echo "i = $i"
+i=$(( $i + 1 ))
+done
