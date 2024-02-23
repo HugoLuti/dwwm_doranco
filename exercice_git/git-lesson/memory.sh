@@ -110,3 +110,21 @@ git restore --staged nom_fichier
 # Crée un nouveau commit 
 
 gi revert id_commit
+
+# -------------------- Remote -------------------- #
+
+# Etablir une connexion avec un dépot distant
+
+git remote add alias url
+
+# Envoie le contenus du dépot local vers le dépot distant en liant les branches locales avec la branche distante
+
+git push -u alias nom_branche
+
+# Envoie le contenus du dépot local vers le dépot distant
+
+git push
+
+# Recupere tout l'historique du dépot et incorpore les modifications
+
+git pull
