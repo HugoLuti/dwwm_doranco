@@ -107,24 +107,39 @@ git restore nom_fichier
 
 git restore --staged nom_fichier
 
-# Crée un nouveau commit 
+# Crée un nouveau commit.
 
 gi revert id_commit
 
 # -------------------- Remote -------------------- #
 
-# Etablir une connexion avec un dépot distant
+# Clone un dépot git distant en créant une copie locale du projet.
+
+git clone url
+
+# Etablir une connexion avec un dépot distant (alias est souvent nommé origin)
 
 git remote add alias url
 
-# Envoie le contenus du dépot local vers le dépot distant en liant les branches locales avec la branche distante
+# Envoie le contenus du dépot local vers le dépot distant en liant les branches locales avec la branche distante.
 
 git push -u alias nom_branche
 
-# Envoie le contenus du dépot local vers le dépot distant
+# Envoie le contenus du dépot local vers le dépot distant.
 
 git push
 
-# Recupere tout l'historique du dépot et incorpore les modifications
+# Recupere tout l'historique du dépot et incorpore les modifications.
 
 git pull
+
+# Récupere les modfications de la branche spécifier du dépot distant et les fusionne avec la branche locale.
+
+git pull alias nom_branche
+
+
+# -------------------- .GITIGNORE -------------------- #
+
+# Le fichier .gitignore est un fichier dans lequel vous pouvez spécifier les fichiers et les dossiers a ignorer lors du suivis par git.
+
+.gitignore
