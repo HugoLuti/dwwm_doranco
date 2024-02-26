@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML - Introduction</title>
+  </head>
+  <body>
+    <!-- Je suis un commentaire en HTML, je n'apparais pas sur la page du navigateur -->
+
+    <!-- La balise <div> est l'élément bloc générique -->
+    <div>
+      <!-- Les titres s'écrivent dans des balises de h1 à h6 -->
+      <h1>Je suis un titre de niveau 1</h1>
+      <h2>Je suis un titre de niveau 2</h2>
+      <h3>Je suis un titre de niveau 3</h3>
+      <h4>Je suis un titre de niveau 4</h4>
+      <h5>Je suis un titre de niveau 5</h5>
+      <h6>Je suis un titre de niveau 6</h6>
+    </div>
+
+    <!-- La balise hr affiche une ligne, elle définit une pause thématique dans une page HTML -->
+
+    <hr />
+    <div>
+      <h2>Les paragraphes</h2>
+      <p>
+        Pour créer des <strong>paragraphes</strong> nous allons utilisé la
+        balise &lt;p&gt;
+      </p>
+
+      <!-- La balise <span> est l'élément inline générique -->
+      <p>
+        Pour chaque <span>paragraphe</span>, un saut de ligne est créé
+        automatiquement <br />
+        par notre <em>navigateur</em> (exactement comme avec les titres)
+      </p>
+    </div>
+
+    <hr />
+
+    <div>
+      <h2>Les listes</h2>
+      <h3>Les personnages des Simpsons</h3>
+      <!-- Les listes non ordonnées (un, unordoned list) -->
+      <ul>
+        <li>Homer</li>
+        <li>Marge</li>
+        <li>Bart</li>
+        <li>Lisa</li>
+        <li>Magie</li>
+      </ul>
+
+      <h3>Mes films préférés</h3>
+      <!-- Les listes ordonnées (ol, ordoned list) -->
+      <ol>
+        <li>Batman</li>
+        <li>Avatar</li>
+        <li>Ben Hur</li>
+      </ol>
+    </div>
+
+    <hr />
+
+    <div>
+      <h2>Les images</h2>
+      <img src="img/photo-test.jpg" alt="Photo d'exemple" />
+      <img
+        src="img/error.jpg"
+        alt="Je suis le message qui s'affiche quand l'image ne s'affiche pas"
+      />
+    </div>
+
+    <hr />
+
+    <div>
+      <h2>Les liens</h2>
+      <!-- Lien vers un site externe -->
+      <div>
+        <a href="https://www.doranco.fr/">Doranco</a>
+      </div>
+
+      <div>
+        <!-- Lien vers un site interne a notre site web -->
+
+        <a href="html/contact.html">Page contact</a>
+      </div>
+
+      <div>
+        <!-- Lien pour envoyer un mail -->
+
+        <a href="mailto:huggolutigneaux@gmail.com">huggolutigneaux@gmail.com</a>
+      </div>
+
+      <div>
+        <!-- Lien qui renvoie vers la page contact, en image cliquable -->
+        <a href="html/contact.html"><img src="img/photo-test.jpg" alt=""></a>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTLM - Tableaux</title>
+    <style>
+      td,
+      th {
+        border: 1px solid black;
+        padding: 15px 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Les tableaux</h1>
+
+      <!-- Un tableau se compose d'une balise <table> </table> -->
+      <!-- Pour chaque ligne on ajoute la balise <tr> </tr> -->
+      <!-- Pour chaque cellule on ajoute la balise <td> </td> -->
+      <!-- Les balises <td> </td> peuvent etre remplacée par <th> </th> pour les cases titres -->
+
+      <a href="practice.html">Lien vers la pas exercice</a>
+      <br>
+      <br>
+      <br>
+
+      <table>
+        <caption>Mon super tableau</caption>
+        <!-- Pour lier un titre a un tableau , j'utilise la balise <caption> </caption> -->
+
+        <thead>
+          <tr>
+            <th>HT</th>
+            <th>TVA</th>
+            <th>Prix TTC</th>
+          </tr>
+        </thead>
+        
+        <tfoot>
+            <tr>
+                <th>HT</th>
+                <th>TVA</th>
+                <th>Prix TTC</th>
+              </tr>
+        </tfoot>
+
+        <tbody>
+          <tr>
+            <td>116</td>
+            <td>20%</td>
+            <td>139,2</td>
+          </tr>
+
+          <tr>
+            <td>330</td>
+            <td>10%</td>
+            <td>363</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
