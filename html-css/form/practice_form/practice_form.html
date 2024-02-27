@@ -13,94 +13,95 @@
     </style>
   </head>
   <body>
-    <form><table>
-      <tr>
-        <td>Pseudo</td>
-        <td>
+    <form>
+      <table>
+        <caption>Nouvel exercice</caption>
+        <tr>
+          <td>Pseudo</td>
+          <td>
             <label for="name"></label>
-            <input type="text" id="name" required="required" />
-        </td>
-      </tr>
+            <input type="text" id="name" autofocus />
+          </td>
+        </tr>
 
-      <tr>
-        <td>Password</td>
-        <td>
+        <tr>
+          <td>Password</td>
+          <td>
             <label for="password"></label>
             <input type="password" id="password" />
-        </td>
-      </tr>
+          </td>
+        </tr>
 
-      <tr>
-        <td>Email</td>
-        <td>
-                <label for="email"></label>
-                <input type="email">
-        </td>
-      </tr>
+        <tr>
+          <td>Email</td>
+          <td>
+            <label for="email"></label>
+            <input type="email" required/>
+          </td>
+        </tr>
 
-      <tr>
-        <td>Date</td>
-        <td>
-                <label for="date"></label>
-                <input type="date">
-        </td>
-      </tr>
+        <tr>
+          <td>Date</td>
+          <td>
+            <label for="date"></label>
+            <input type="date" />
+          </td>
+        </tr>
 
-      <tr>
-        <td>Véhicule</td>
-        <td>
-                <label for="véhicule"></label>
-                <select id="véhicule">
-                    <option value="bike">moto</option>
-                    <option value="car">voiture</option>
-                </select>
-        </td>
-      </tr>
+        <tr>
+          <td>Véhicule</td>
+          <td>
+            <label for="véhicule"></label>
+            <select id="véhicule">
+              <option value="bike">Moto</option>
+              <option value="car">Voiture</option>
+            </select>
+          </td>
+        </tr>
 
-      <tr>
-        <td>Dites nous en plus sur vous</td>
-        <td>
-                <label for="comment"></label>
-                <textarea id="comment"></textarea>
-        </td>
-      </tr>
+        <tr>
+          <td>Dites nous en plus sur vous</td>
+          <td>
+            <label for="comment"></label>
+            <textarea id="comment"></textarea>
+          </td>
+        </tr>
 
-      <tr>
-        <td>Sexe</td>
-        <td>
-                <label for="homme">Homme</label>
-                <input type="radio" id="homme" name="choix">
-                <label for="femme">Femme</label>
-                <input type="radio" id="femme" name="choix">
-        </td>
-      </tr>
+        <tr>
+          <td>Sexe</td>
+          <td>
+            <label for="homme">Homme</label>
+            <input type="radio" id="homme" name="choix" />
+            <label for="femme">Femme</label>
+            <input type="radio" id="femme" name="choix" />
+          </td>
+        </tr>
 
-      <tr>
-        <td>Sport pratiqué</td>
-        <td>
-                <label for="karaté">Karaté</label>
-                <input type="checkbox" id="karaté">
-                <label for="tennis">Tennis</label>
-                <input type="checkbox" id="tennis">
-        </td>
-      </tr>
+        <tr>
+          <td>Sport pratiqué</td>
+          <td>
+            <label for="karate">Karaté</label>
+            <input type="checkbox" value="karate" />
+            <label for="tennis">Tennis</label>
+            <input type="checkbox" value="tennis" />
+          </td>
+        </tr>
 
-      <tr>
-        <td>Telecharger</td>
-        <td>
-                <label for=""></label>
-                <input type="file">
-        </td>
-      </tr>
+        <tr>
+          <td>Telecharger</td>
+          <td>
+            <label for="download"></label>
+            <input type="file" value="download" />
+          </td>
+        </tr>
 
-      <tr>
-        <td colspan="2">
-                <input type="submit">
-                <input type="reset">
-        </td>
-      </tr>
-    </table>
-</form>
-    
+        <tr>
+          <td colspan="2">
+            <input type="submit" />
+            <input type="reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
   </body>
 </html>
