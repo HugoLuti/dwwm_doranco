@@ -1,0 +1,38 @@
+h1{
+    font-weight: normal;
+
+}
+
+h1:hover{
+    color: pink;
+}
+
+h2{
+    text-decoration: underline;
+    text-align: center;
+}
+
+body{
+    font-size: 20px;
+    font-family: Helvetica;
+}
+
+.txt-maj{
+    text-transform: uppercase;
+}
+
+.txt-droit{
+    text-align: right;
+}
+
+.txt-pas-souligne{
+    text-decoration: none;
+}
+
+.txt-centre{
+    text-align: center;
+}
+
+.pas-puce{
+    list-style: none;
+}

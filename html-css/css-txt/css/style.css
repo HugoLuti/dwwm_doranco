@@ -1,0 +1,63 @@
+body{
+    /* Police de caractere */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Taille de la police */
+    font-size: 20px;
+
+    /* Epaisseur de la police */
+    font-weight: bold;
+    /* normal et bold */
+
+    /* Style de la police */
+    font-style: normal;
+    /* normal et italice */
+
+    /* Alignement du texte */
+    text-align: center;
+    /* left | center | right */
+
+}
+
+h1{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+p{
+    /* Majuscule, minuscule */
+    text-transform: uppercase;
+    /* lowercase, uppercase, capitalise */
+
+    /* Couleur du texte */
+    color: red;
+    color: rgb(120, 120, 160);
+    color: #000000 ;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    /* Style sur le texte (souligné, barré) */
+    text-decoration: none;
+    /* underline, none, line-through */
+
+    color: red;
+}
+
+/* Pseudo class */
+
+
+/* La pseudo class :hover signifie au survole */
+a:hover{
+    color: blue;
+    font-size: 22px;
+}
+
+/* La pseudo class :visited signifie que le lien a été cliqué une fois */
+a:visited{
+    color: green;
+}
+

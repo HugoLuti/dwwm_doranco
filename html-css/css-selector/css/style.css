@@ -1,0 +1,42 @@
+/* Je suis un commentaire en CSS */
+/* Cascading Style Sheet */
+/* Le principe de cascade veut que le style s'ecoule sur les enfants */
+
+/* body{
+    color: yellow;
+} */
+
+/* On peut selectionner les noms des balises HTML */
+/* Consequences tout les elements de ce type seront modifies */
+
+/* h2{
+    color: bisque;
+} */
+
+
+/* On peut selectionner des balises spécifiques grâce aux class en utilisant le . */
+/* Consequences tous les elements qui ont cette class seront modifies */
+
+.txt-cl-orange{
+    color: orange;
+}
+
+/* On peut selectionner une balise spécifique grâce a son id en utilisant le # */
+/* Consequences cet element qui ont cette class seront modifies */
+/* On prefere laisser les id au JavaScript */
+
+#title{
+    color: lightskyblue ;
+}
+
+/* On peut selectionner plusieurs element en les separant par des virgules */
+
+h2, .txt-cl-orange{
+    font-style: italic;
+}
+
+/* On peut selectionner des balises specifique par selecteur descendant (chemin) */
+
+.paragraphe h2{
+    text-decoration: underline;
+}
