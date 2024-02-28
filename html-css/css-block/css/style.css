@@ -1,0 +1,72 @@
+*{
+    /* est le selecteur universelle, il cible tous les éléments HTML */
+    /* On opert un reset (On réinitialise les valeurs et comportements par défaut */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    /* La valeur par défaut d'un element block est { display: block; } */
+    display: block;
+
+    color: #000;
+
+    /* Permet de mettre une couleur de fond */
+    background-color: #558877;
+
+    /* Permet de mettre une hauteur */
+    /* height: 300px;  */
+    min-height: 300px;
+
+    /* Permet de mettre une largeur */
+    width: 300px;
+
+    /* Permet de mettre une marge exterieur, il y a pleins de raccourcis */
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px; 
+
+    margin: 60px 100px 75px 90px;
+    margin: 50px 100px; /* De haut en bas et de gauche a droite */
+    margin: 200px;
+
+    /* {margin: auto;} permet de centrer un block dans la largeur */
+    margin: 50px auto;
+
+    /* Padding sert a mettre de la marge intérieur */
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+    padding: 20px 50px 60px 70px;
+    padding: 30px 60px;  /* Padding de haut en bas puis de droite à gauche */
+    padding: 40px;  /* Padding de tout les cotés */
+
+    border: 10px solid black; 
+}
+
+h1{
+    background-color: #123654;
+    color: #ffffff;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+.circle{
+    color: #ffffff;
+    background-color: #ab98;
+    height: 200px;
+    width: 200px;
+    margin:  50px auto;
+    padding: 50px 50px;
+
+    /* La propriete border radius avec la valeur 50% permet de faire des cercles */
+    border-radius: 50%;
+
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.568);
+}
