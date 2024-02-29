@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-
-}
-
 .container{
 
     background-color: #4cfa50;
@@ -32,7 +28,6 @@ body{
     /* gap permet de mettre de l'espace entre les enfants direct */
     gap: 10px;
 
-    /*  */
     flex-wrap: wrap;
 }
 
