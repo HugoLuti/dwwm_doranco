@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+.container{
+
+    background-color: #4cfa50;
+    margin: 50px;
+    height: 500px;
+
+    /* La propriété ( display : flex ) donne un pouvoir sur les elements enfants direct */
+    display: flex;
+
+    /* La propriété ( flex-direction: ; ) permet de choisir la direction de l'axe principal */
+    flex-direction: row;
+    /* row | colum */
+
+    /* La propriété ( justify-content: ; ) permet d'alligner dans le sens horizontal */
+    justify-content: center;
+    /* flex-start | flex-end | centre | space-between | space-around */
+    
+    /* La propriété ( align-items : ; ) permet d'aligner dans l'axe secondaire */
+    align-items: flex-start;
+    /* flex-start | center | flex-end */
+
+    /* gap permet de mettre de l'espace entre les enfants direct */
+    gap: 10px;
+
+    /*  */
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+}
+

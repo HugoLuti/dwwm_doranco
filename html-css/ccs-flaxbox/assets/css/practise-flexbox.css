@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    background-color: midnightblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 20px;
+    height: 100px;
+}
+
+.container a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.container nav{
+    background-color: red;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}

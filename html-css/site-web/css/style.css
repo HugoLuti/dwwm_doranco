@@ -97,3 +97,27 @@ p {
 .about-us a:hover{
     color: bisque;
 }
+
+/* SECTION BAS */
+
+.bas{
+  width: 100%;
+  height: 150px;
+  background-color: #9b0517;
+}
+
+.bas h2{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 10px;
+  margin: auto;
+}
+
+.social-network-icons{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 10px;
+}
