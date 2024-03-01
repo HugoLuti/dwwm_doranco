@@ -1,0 +1,97 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    height: 450px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.699), transparent),url(../img/tour-eifel.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    text-align: center;
+    color: #fff;
+}
+  
+.hero h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+  
+.hero p {
+    font-style: italic;
+}
+
+.explore{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.explore h2 {
+    text-align: center;
+    font-size: 30px;
+}
+  
+.explore p{
+    text-align: center;
+    font-size: 16px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.gallery img{
+    width: 350px;
+    border-radius: 5%;
+    box-shadow: 5px 10px 10px;
+}
+
+.up{
+    position: fixed;
+    bottom: 70px;
+    right: 60px;
+    display: block;
+    background-color: #3a78fd;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 13px;
+    border-radius: 50%;
+}
+
+.up a{
+    color: #fff;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        padding: 20px;
+        gap: 30px;
+    }
+
+    nav{
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+}
