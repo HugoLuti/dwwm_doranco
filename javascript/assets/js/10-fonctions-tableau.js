@@ -62,6 +62,21 @@ console.log(animals);
 animals.splice(2, 1);
 console.log(animals);
 
+// for(.. of ..){} permet de parcourir les éléments d'un objet itérable (ex : tableau et string)
+
+// Sur le tableau animals faire une boucle for pour afficher tout les éléments du tableau
+// Sur le tableau animals faire une boucle for(of....) pour afficher tout les éléments du tableau
+
+for (let tour = 0; tour < animals.length; tour++) {
+  console.log(animals[tour]);
+}
+
+for (let x of animals) {
+  console.log(x);
+}
+
+// foreach(){} est une méthode Javascript qui permet d'itérer sur les éléments d'un tableau.
+
 // Declarer un tableau contenant ("Paris", "Berlin", "Rome", "Moscou", "Londres", "Madrid")
 
 /*      
@@ -72,16 +87,15 @@ console.log(animals);
             Retourne la taille du tableau
 */
 
-let ville = ["Paris", "Berlin", "Rome", "Moscou", "Londres", "Madrid"];
+const ville = ["Paris", "Berlin", "Rome", "Moscou", "Londres", "Madrid"];
 console.log(ville);
 
-function modif() {
-  ville.splice(5, 0);
-  ville.unshift(`Vienne`);
-  ville.splice(3, 0, `Alger`);
-  let taille = ville.length;
-  console.log(ville);
-  console.log(taille);
+function modif(array) {
+  array.pop();
+  array.unshift(`Vienne`);
+  array.splice(3, 1, `Alger`);
+
+  return array.length;
 }
 
-modif();
+const taille = modif(ville);
