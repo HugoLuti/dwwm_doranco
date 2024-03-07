@@ -89,6 +89,8 @@ popUp.title = "Je suis une pop-up ajouter en Javascript.";
 
 /* -------------------- Créer des éléments -------------------- */
 
+// Créer un élément en JS
+
 const newParagraphe = document.createElement("p");
 newParagraphe.classList.add("new-paragraphe");
 newParagraphe.textContent = "Je suis un nouvel element créer en js";
@@ -97,3 +99,6 @@ const paragrapheContainer = document.querySelector("#paragraphe-container");
 
 // Ajoute un nouvel élément a la fin
 paragrapheContainer.append(newParagraphe);
+
+// Ajoute un nouvel élément au début
+paragrapheContainer.prepend(newParagraphe);
